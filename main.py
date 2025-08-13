@@ -2,7 +2,7 @@
 from fastapi import FastAPI
 from model import Request
 from fastapi.responses import JSONResponse
-from model import AppUsers
+from logic import AppUsers
 
 app = FastAPI()
 

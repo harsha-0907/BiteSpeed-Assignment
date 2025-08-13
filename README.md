@@ -1,10 +1,21 @@
-# Flask API Service Starter
+# BiteSpeed - Assignment
 
-This is a minimal Flask API service starter based on [Google Cloud Run Quickstart](https://cloud.google.com/run/docs/quickstarts/build-and-deploy/deploy-python-service).
+This is the Bitespeed assignment
 
-## Getting Started
+## Tech Stack (v.1.0)
+1. Storing Data - `Dictionary` (in-built)
+2. Backend Framework - `FastAPI`
+3. ASGI - `Uvicorn`
+4. Data Modelling & Validation - `Pydantics`
 
-Server should run automatically when starting a workspace. To run manually, run:
-```sh
-./devserver.sh
-```
+## How to Install
+1. Clone the repository `git clone `\
+2. Change directory to the repository `cd stockExchange` \
+3. Create Virtual Environment `python3 -m venv .venv` \
+4. Activate the virtual environment: \
+    i. For Linux `source .venv/bin/activate` \
+    ii. For Windows ` .venv\Scripts\activate` \
+
+5. Install the necessary packages using `pip install -r requirments.txt`
+6. Run the code using `python3 app.py`
+
